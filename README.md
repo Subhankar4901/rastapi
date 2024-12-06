@@ -3,6 +3,7 @@
 **RastAPI** is an easy-to-use Rust library for creating low-boilerplate, efficient RESTful APIs, inspired by FastAPI (Python). Define route handlers (functions) and map them to their corresponding URLs to get a fully functional API.
 
 RastAPI is designed with **Non-Blocking I/O** and a **Threadpool** architecture for efficient and concurrent request handling. It also features an advanced **LFU-LRU-based file caching system**, leveraging multithreading with lock-stripping techniques to minimize contention.
+
 ---
 
 ## Features
@@ -89,9 +90,9 @@ fn main() {
 }
 ```
 ## Future Work
-- [] Don't avoid the rust borrow checker and take it head on. For example using `&str` instead of `String`.
-- [] Building a more robust logging system.
-- [] Enable encrypted connections (https). Currently it only supports http.
-- [] Impliment security fetures like DDOS protection.
-- [] Building a templating engiene for server side rendering of HTML.
-- [] Enable support for http2. (maybe)
+- [ ] Don't avoid the rust borrow checker and take it head on. For example using `&str` instead of `String`.
+- [ ] Building a more robust logging system.
+- [ ] Enable encrypted connections (https). Currently it only supports http.
+- [ ] Impliment security fetures like DDOS protection.
+- [ ] Building a templating engiene for server side rendering of HTML.
+- [ ] Enable support for http2. (maybe)

@@ -9,7 +9,7 @@ Detailed documentation can be found here : [https://docs.rs/rastapi](https://doc
 
 [![crates.io](https://img.shields.io/crates/v/rastapi.svg)](https://crates.io/crates/rastapi)
 [![Documentation](https://docs.rs/rastapi/badge.svg)](https://docs.rs/rastapi)
-[![CI - Tests](https://github.com/Subhankar4901/rastapi/actions/workflows/rust.yml/badge.svg)](https://github.com/Subhankar4901/rastapi/actions/workflows/ci.yml)
+[![CI - Tests](https://github.com/Subhankar4901/rastapi/actions/workflows/test.yml/badge.svg)](https://github.com/Subhankar4901/rastapi/actions/workflows/test.yml)
 
 ---
 

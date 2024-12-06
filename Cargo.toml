@@ -8,7 +8,7 @@ authors = ["Subhankar Halder <subhankarh701@gmail.com>"]
 repository = "https://github.com/Subhankar4901/rastapi"
 keywords = ["rust","rest api","fastapi","http" ,"http server"]
 categories = ["development-tools"]
-exclude = [".github"]
+exclude = [".github",".gitignore"]
 readme = "README.md"
 license = "MIT"
 

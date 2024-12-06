@@ -95,4 +95,4 @@ fn main() {
 - [ ] Enable encrypted connections (https). Currently it only supports http.
 - [ ] Impliment security fetures like DDOS protection.
 - [ ] Building a templating engiene for server side rendering of HTML.
-- [ ] Enable support for http2. (maybe)
+- [ ] Enable support for http2. (maybe) Currently it only supports HTTP/1.0 & HTTP/1.1

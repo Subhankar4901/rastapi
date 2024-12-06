@@ -1,0 +1,25 @@
+[package]
+name = "rastapi"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75.0"
+description = "REST API library inspired by python FastAPI/Flask"
+authors = ["Subhankar Halder <subhankarh701@gmail.com>"]
+repository = "https://github.com/Subhankar4901/rastapi"
+keywords = ["rust","rest api","fastapi","http" ,"http server"]
+categories = ["development-tools"]
+readme = "README.md"
+license = "MIT"
+
+
+[features]
+default=[]
+caching=[]
+
+[dependencies]
+rand="0.8"
+chrono="0.4"
+regex="1"
+libc="0.2"
+[dev-dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }

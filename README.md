@@ -4,6 +4,13 @@
 
 RastAPI is designed with **Non-Blocking I/O** and a **Threadpool** architecture for efficient and concurrent request handling. It also features an advanced **LFU-LRU-based file caching system**, leveraging multithreading with lock-stripping techniques to minimize contention.
 
+Detailed documentation can be found here : [https://docs.rs/rastapi](https://docs.rs/rastapi)
+
+
+[![crates.io](https://img.shields.io/crates/v/rastapi.svg)](https://crates.io/crates/rastapi)
+[![Documentation](https://docs.rs/rastapi/badge.svg)](https://docs.rs/rastapi)
+[![CI - Tests](https://github.com/Subhankar4901/rastapi/actions/workflows/rust.yml/badge.svg)](https://github.com/Subhankar4901/rastapi/actions/workflows/ci.yml)
+
 ---
 
 ## Features
